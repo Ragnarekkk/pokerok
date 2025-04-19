@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ПокерOK</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 1rem;
+    }
+    .girl {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 20px;
+      margin-bottom: 1.5rem;
+    }
+    .button {
+      background-color: #ff006f;
+      color: white;
+      font-size: 1.5rem;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 2rem;
+      cursor: pointer;
+      box-shadow: 0 0 20px #ff006f;
+      transition: transform 0.2s;
+      margin-top: 1rem;
+    }
+    .button:hover {
+      transform: scale(1.05);
+    }
+    .bonus-code {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+      color: #00ff00;
+      text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+    }
+    .bonus-desc {
+      font-size: 1.25rem;
+      color: gold;
+      margin-top: 0.5rem;
+    }
+    a {
+      color: #ff66ff;
+      text-decoration: none;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .warning {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #ff69b4;
+    }
+    @media (max-width: 768px) {
+      .button {
+        font-size: 1.2rem;
+        padding: 0.75rem 1.5rem;
+      }
+      .bonus-code, .bonus-desc {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img class="girl" src="https://i.imgur.com/sqK5MMS.jpg" alt="Девушка" />
+  <h1>ПокерOK</h1>
+  <button class="button" onclick="window.location.href='https://click.ggpartners.com/?serial=2076&creative_id=154&anid='">Регистрация</button>
+  <div class="bonus-code">Бонус-код: <strong>Bubble</strong></div>
+  <div class="bonus-desc">Бонус 100% до 600$</div>
+  <div class="bonus-desc">Бонус <a href="https://click.ggpartners.com/?serial=2076&creative_id=154&anid=">Бонус</a></div>
+  <footer>
+    <div class="warning">Играй ответственно 18+</div>
+    <div>© 2024 PokerOK. Только 18+. Ответственная игра.</div>
+  </footer>
+</body>
+</html>
